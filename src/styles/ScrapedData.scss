@@ -1,139 +1,11 @@
-// /* General styles */
-// body {
-//     font-family: 'Arial', sans-serif;
-//     background-color: #f4f7fa;
-//     color: #333;
-//     margin: 10px;
-//     padding: 10px;
-//   }
-
-//   h2 {
-//     color: #2c3e50;
-//   }
-
-//   /* Grid container for cards */
-//   .grid {
-//     display: grid;
-//     gap: 20px;
-//   }
-
-//   /* Card styles */
-//   .grid > div {
-//     background-color: #ffffff;
-//     border: 2px solid #e0e0e0;
-//     border-radius: 15px;
-//     padding: 20px;
-//     transition: transform 0.2s ease, box-shadow 0.2s ease;
-//   }
-
-//   .grid > div:hover {
-//     transform: translateY(-5px);
-//     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-//   }
-
-//   .grid > div p {
-//     margin: 5px 0;
-//   }
-
-//   /* Status colors */
-//   .text-green-500 {
-//     color: #27ae60;
-//     font-weight: bold;
-//   }
-
-//   .text-yellow-500 {
-//     color: #f1c40f;
-//     font-weight: bold;
-//   }
-
-//   /* Modal background */
-//   .fixed {
-//     background-color: rgba(0, 0, 0, 0.6);
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//   }
-
-//   /* Modal content */
-//   .bg-white {
-//     background-color: #ffffff;
-//     border-radius: 15px;
-//     padding: 30px;
-//     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-//   }
-
-//   .bg-white h3 {
-//     color: #34495e;
-//     margin-bottom: 15px;
-//   }
-
-//   .bg-white ul li {
-//     color: #2c3e50;
-//   }
-
-//   .text-gray-500 {
-//     color: #95a5a6;
-//   }
-
-//   /* Button styles */
-//   button {
-//     background-color: #3498db;
-//     color: #ffffff;
-//     padding: 10px 20px;
-//     border: none;
-//     border-radius: 10px;
-//     cursor: pointer;
-//     transition: background-color 0.3s ease;
-//   }
-
-//   button:hover {
-//     background-color: #2980b9;
-//   }
-
-//   /* Responsive design */
-//   @media (max-width: 1024px) {
-//     .grid {
-//       grid-template-columns: repeat(2, 1fr);
-//     }
-//   }
-
-//   @media (max-width: 768px) {
-//     .grid {
-//       grid-template-columns: 1fr;
-//     }
-//   }
-
-//   @media (min-width: 1200px) {
-//     .grid {
-//       grid-template-columns: repeat(3, 1fr);
-//     }
-//   }
-
-//   @media (min-width: 1600px) {
-//     .grid {
-//       grid-template-columns: repeat(4, 1fr);
-//     }
-//   }
-
-//   @media (min-width: 1920px) {
-//     .grid {
-//       grid-template-columns: repeat(5, 1fr);
-//     }
-//   }
-
-//   @media (min-width: 2560px) {
-//     .grid {
-//       grid-template-columns: repeat(6, 1fr);
-//     }
-//   }
-
-/* General Styles */
 body {
+  background: url("../assets/9117392.jpg") no-repeat center center;
+  background-size: cover;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f9;
-  color: #333;
+  color: white;
 }
 
 /* Container for the webpage scraper UI */
@@ -144,7 +16,7 @@ body {
 /* Heading */
 .text-2xl {
   font-size: 1.5rem;
-  color: #2c3e50;
+  color: white;
 }
 
 /* Grid layout for the cards */
@@ -165,10 +37,11 @@ body {
 /* Card styling */
 .p-4 {
   padding: 1rem;
-  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.411);
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+
 }
 
 .p-4:hover {
@@ -179,7 +52,7 @@ body {
 /* URL text */
 .text-lg {
   font-size: 1.125rem;
-  color: #34495e;
+  color: white;
   margin-top: 0px;
 }
 

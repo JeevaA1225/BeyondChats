@@ -1,6 +1,17 @@
 $primary-color: #4caf50;
 $button-padding: 10px 20px;
 
+body{
+  background: url("../assets/9117392.jpg") no-repeat center center;
+  background-size: cover;
+  height: max-content;
+  overflow-y: hidden;
+}
+
+.chatcontent{
+  background-color: rgba(0, 0, 0, 0.63);
+}
+
 .button {
   background-color: $primary-color;
   color: white;
